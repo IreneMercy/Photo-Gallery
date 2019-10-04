@@ -1,13 +1,13 @@
 ## Photo-Gallery
-#### Photo-gallery is a web application that enable users to display their photos for others to see.
+##### Photo-gallery is a web application that enable users to display their photos for others to see.
 
 ## Requirements
-#### These are the requirements you need to get the project running locally on your machine:
-#### Text Editor
-#### Install python
-#### Install and activate virtual
-#### Setup Database
-#### Install Django
+##### These are the requirements you need to get the project running locally on your machine:
+##### Text Editor
+##### Install python
+##### Install and activate virtual
+##### Setup Database
+##### Install Django
 
 ## Installation Process
 ##### Download any text editor of your choice, either Sublime, Visual-Studio-Code or Atom.
@@ -35,3 +35,19 @@
 ##### After ensuring you have all the above
   - ```python3 manage.py runserver``` to run the project.
   - Then click the local host link given to open the project on a browser ```http://127.0.0.1:8000/```.
+
+## Technologies Used
+##### Python
+##### Django
+##### Postgresql
+##### HTML5
+##### CSS3
+
+## Dependencies
+##### Postgresql
+
+## Licence
+[MIT](LICENSE)
+
+## Contact
+##### irenemercy700@gmail.com
