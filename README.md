@@ -36,8 +36,12 @@
   - ```python3 manage.py runserver``` to run the project.
   - Then click the local host link given to open the project on a browser ```http://127.0.0.1:8000/```.
 
-##### [DjangoDocumentation](https://docs.djangoproject.com/en/1.11/intro/install/)
-##### [PythonDocumentation](https://www.python.org/doc/)
+  
+### For more information read the following django and python documentation:
+  - [DjangoDocumentation](https://docs.djangoproject.com/en/1.11/intro/install/)
+  - [PythonDocumentation](https://www.python.org/doc/)
+
+
 ### User Stories
 ##### As a user, I would like to view different photos that interest me.
 ##### As a user, I would like to click on a single photo to expand it and also view the details of the photo.
