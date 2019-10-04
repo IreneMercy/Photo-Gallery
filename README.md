@@ -43,10 +43,16 @@
 ##### As a user, I would like to copy a link to the photo to share with my friends.
 ##### As a user, I would like to view photos based on the location they were taken.
 
+### Behavior Driven Development
+##### The application should display photos.
+##### When a user clicks on a photo, the photo should expand and the details of the photo to be displayed on a modal within the main page.
+##### When a user enters a search term on the search input and submits it, then they should be able to get a result of what they are looking for or if the term does not exist, they should get a message to inform them.
+##### When a user clicks on the copy button, then they should be able to have the image link copied to their machine clipboard.
+
 ### Technologies Used
 ##### Python
 ##### Django
-##### Postgresql
+##### PostgreSQL
 ##### HTML5
 ##### CSS3
 
