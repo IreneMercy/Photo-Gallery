@@ -1,5 +1,5 @@
 ### Photo-Gallery
-##### Photo-gallery is a web application that enable users to display their photos for others to see.
+##### Photo-gallery is a platform where users can display their photos for others to see, they can share the photos by coping the photo link and also add different categories of photo. Their friends can like the photos too.
 
 ### Requirements
 ##### These are the requirements you need to get the project running locally on your machine:
