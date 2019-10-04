@@ -19,7 +19,7 @@
 ##### Git clone the project on your current directory => ```git clone https://github.com/IreneMercy/Photo-Gallery```.
 ##### Open the project on your terminal =>```atom . or code .``` , according to the type of your text editor.
 ##### Move to your project directory ```cd Photo-Gallery```.
-#####3 Install virtual environment using python:
+##### Install virtual environment using python:
   - ```python3.6 -m venv virtual```, check your project to confirm you have a folder called virtual,
   - then activate it by running ```source virtual/bin/activate```
 ###### ```pip install -r requirements.txt``` to install the packages in the ```requirements.txt file```. That will install all packages including Django.
