@@ -3,11 +3,11 @@
 
 ### Requirements
 ##### These are the requirements you need to get the project running locally on your machine:
-##### Text Editor
-##### Install python
-##### Install and activate virtual
-##### Setup Database
-##### Install Django
+  - Text Editor
+  - Install python
+  - Install and activate virtual
+  - Setup Database
+  - Install Django
 
 ### Installation Process
 ##### Download any text editor of your choice, either Sublime, Visual-Studio-Code or Atom.
@@ -35,6 +35,13 @@
 ##### After ensuring you have all the above
   - ```python3 manage.py runserver``` to run the project.
   - Then click the local host link given to open the project on a browser ```http://127.0.0.1:8000/```.
+
+### User Stories
+##### As a user, I would like to view different photos that interest me.
+##### As a user, I would like to click on a single photo to expand it and also view the details of the photo.
+##### As a user, I would like to search for different categories of photos.
+##### As a user, I would like to copy a link to the photo to share with my friends.
+##### As a user, I would like to view photos based on the location they were taken.
 
 ### Technologies Used
 ##### Python
