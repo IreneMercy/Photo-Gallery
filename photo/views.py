@@ -25,17 +25,23 @@ def search_image(request):
         search_term = request.GET["images"]
         searched_images = Images.search_by_category(search_term)
         message = f'{search_term}'
-        return render(request, 'gall/search.html', {"message":message, "images":searched_images})
+        location = Location.objects.all()
+        context = {
+            "location":location,
+            "message":message,
+            "images":searched_images
+        }
+        return render(request, 'gall/search.html',context)
 
     else:
         message = "You haven't searched for any image"
         return render(request, 'gall/search.html', {"message":message})
 
 def display_by_location(request, id):
-    queryset = Location.objects.all()
-    queryset = Images.objects.filter(location__id=id)
+    location = Location.objects.all()
+    images = Images.objects.filter(location__id=id)
     context = {
-        "location":queryset,
-        "images":queryset,
+        "location":location,
+        "images":images,
     }
     return render(request, "location.html", context)
