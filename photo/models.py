@@ -21,15 +21,24 @@ class Category(models.Model):
         self.save()
 
 class Images(models.Model):
-    image_path = models.ImageField()
+    image_path = models.ImageField(upload_to='image/')
     name = models.CharField(max_length=30)
     description = models.CharField(max_length=100)
     pub_date = models.DateTimeField(auto_now_add=True)
     location = models.ForeignKey(Location)
     category = models.ForeignKey(Category)
 
+    def save_images(self):
+        self.save()
+
+
+    @classmethod
+    def search_by_category(cls, search_term):
+        image = cls.objects.filter(category__name__icontains=search_term)
+        return image
+
     def __str__(self):
         return self.description
 
-    def save_images(self):
-        self.save()
+    class Meta:
+        ordering=["-pub_date"]
