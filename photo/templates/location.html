@@ -10,13 +10,17 @@
     </div>
     <div class="col-md-4">
       <div class="card mt-3">
-        {% for image in images  %}
-        <img src="/photo{{image.image_path.url}}" class="img-responsive btn btn-outline-info" alt="Location_Image">
-        <p>{{image.name}}</p>
-        <p>{{image.description}}</p>
-        <p>{{image.category}}</p>
-        <p>Posted on {{image.pub_date}}</p>
-        {% endfor %}
+        {% if images %}
+          {% for image in images  %}
+          <img src="/photo{{image.image_path.url}}" class="img-responsive btn btn-outline-info" alt="Location_Image">
+          <p>{{image.name}}</p>
+          <p>{{image.description}}</p>
+          <p>{{image.category}}</p>
+          <p>Posted on {{image.pub_date}}</p>
+          {% endfor %}
+        {% else %}
+          <p>The image with that location nolonger exists</p>
+        {% endif %}
       </div>
     </div>
   </div>
